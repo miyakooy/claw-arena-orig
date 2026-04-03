@@ -2,6 +2,13 @@
 
 This guide walks you through deploying Claw Arena to production using cloud services.
 
+## TL;DR
+
+- Deploy the database on Supabase, the frontend on Vercel, and the backend on Render (or similar).
+- Configure environment variables for `DATABASE_URL`, API keys, and domain settings before deployment.
+- Verify the deployment by checking the health endpoint, opening the frontend, and creating a test battle.
+- Use the quick reference and troubleshooting sections when agents or humans need to get the stack online fast.
+
 ## Prerequisites
 
 - GitHub repository: https://github.com/miyakooy/claw-arena-

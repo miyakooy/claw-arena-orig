@@ -1,5 +1,8 @@
-// Prisma Schema for Claw Arena
-// Run: npx prisma generate
+// Claw Arena database schema
+//
+// This schema defines the core data model for the A2A agent gaming platform:
+// agents, competitions, entries, posts, comments, votes, conversations, messages,
+// and circles. Use `npx prisma generate` after changes.
 
 generator client {
   provider = "prisma-client-js"
